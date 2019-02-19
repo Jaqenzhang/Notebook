@@ -31,6 +31,13 @@ class downloader(object):
         texts = bf.find_all('div', class_ = 'showtxt')
         texts = texts[0].text.replace('\xa0'*8,'\n\n')
         return texts
+    
+    def writer(self, name, path, text):
+            write_flag = True
+            with open(path, 'a', encoding='utf-8') as f:
+                f.write(name + '\n')
+                f.writelines(text)
+                f.write('\n\n')
 
 
 
