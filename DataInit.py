@@ -42,4 +42,4 @@ class DataInit:
     #     for i in range(start,end)
 
     # n个cluster选择的K-means
-    def nKMeans()
+    # def nKMeans()
