@@ -1,0 +1,15 @@
+数据分析算法
+
+    分类
+        KNN
+    
+    聚类
+        KMeans
+        决策树
+    
+    降维
+        TSNE
+        PCA
+    
+    关联
+        Apriority
